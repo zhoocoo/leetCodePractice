@@ -1,0 +1,26 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "10.正则表达式匹配.js",
+      "program": "${workspaceFolder}/10.正则表达式匹配.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "9.回文数.js",
+      "program": "${workspaceFolder}/9.回文数.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "8.字符串转换整数-atoi.js",
+      "program": "${workspaceFolder}/8.字符串转换整数-atoi.js"
+    }
+  ]
+}
