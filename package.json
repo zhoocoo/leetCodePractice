@@ -2,8 +2,8 @@
   "name": "leetcode",
   "version": "1.0.0",
   "description": "",
-  "main": "8.字符串转换整数-atoi.js",
   "scripts": {
+    "lint": "eslint **/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

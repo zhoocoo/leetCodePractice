@@ -1,17 +1,8 @@
 {
-  "eslint.autoFixOnSave": true, //保存时自动lint
   "files.eol": "\n", //如果你在linux/mac上开发，请添加这一项，windows请忽略
   "eslint.validate": [
     "javascript",
-    "html",
-    {
-      "language": "vue",
-      "autoFix": true
-    },
-    {
-      "language": "javascript",
-      "autoFix": true
-    }
+    "html"
   ],
   "editor.fontSize": 12,
   "prettier.eslintIntegration": true,
@@ -50,5 +41,8 @@
   "prettier.singleQuote": true,
   "vetur.format.defaultFormatterOptions": {
     "wrap_attributes": "force-aligned"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   }
 }

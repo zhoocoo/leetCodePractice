@@ -31,10 +31,27 @@
  * 
  */
 /**
- * @param {number[]} height
+ * @param {number[]} arr
  * @return {number}
  */
-var maxArea = function(height) {
-    
+var maxArea = function(arr) {
+    let left = 0;
+    let right = arr.length-1;
+    let result = 0;
+    while(left<right){
+      let height = Math.min(arr[left],arr[right]);
+      let width = right-left;
+      result = Math.max(result,width * height);
+      if(arr[left] < arr[right]){
+        do{
+          left++;
+        }while(left<right && arr[left] < height);
+      }else{
+        do{
+          right--;
+        }while(left<right && arr[right] < height);
+      }
+    }
+    return result;
 };
 
